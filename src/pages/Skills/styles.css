@@ -1,0 +1,102 @@
+.skills {
+    width: 100%;
+    max-width: 1080px;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px #c9c7c7;
+    transition: 0.2s;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills:hover {
+    box-shadow: 1px 1px 4px #c9c7c7;
+}
+
+.skills .personal {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto; 
+    padding: 32px;
+}
+
+.skills .personal img {
+    width: 100%;   
+    box-shadow: 1px 1px 8px #ececec;
+}
+
+.skills .personal button {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ececec;
+
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.skills .content {
+    width: 100%;    
+
+}
+
+.skills .content h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.skills .content h1 span {
+    color: #6894f3;
+}
+
+.skills .content h2 {
+    color: #737380;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.skills .content p {
+    width: 90%;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.skills .content #dados {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.skills .content #dados h4 {
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.skills .content #social {
+    margin-top: 26px;
+    
+}
+
+.skills .content #social h3 {
+    margin-bottom: 10px;
+
+}
+
+.skills .content #social button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 2px solid #dcdce6;
+    background: transparent;
+    margin-right: 16px;
+    color: #6894f3;
+}
